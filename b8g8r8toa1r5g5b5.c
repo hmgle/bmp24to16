@@ -1,7 +1,6 @@
-#include "dot_matrix_font_to_bmp.h"
+#include "bmp_common.h"
 #include "b8g8r8toa1r5g5b5.h"
 #include "bmp_io.h"
-#include "dot_matrix_font_to_bmp.h"
 #include "debug_log.h"
 
 #ifndef MAX_8_BIT

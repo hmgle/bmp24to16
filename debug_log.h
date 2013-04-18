@@ -4,8 +4,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#define DEBUG	1
-
 #if DEBUG
 FILE *DEBUG_LOG_FILE;
 char DEBUG_STRING[1024];
