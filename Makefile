@@ -18,7 +18,7 @@ b8g8r8toa1r5g5b5: $(OBJ)
 
 sinclude $(SRC:.c=.d)
 
-%d: %c
+%.d: %.c
 	@set -e; rm -f $@; \
 		$(CC) -MM $(CPPFLAGS) $< > $@.$$$$; \
 		sed 's,\(.*\)\.o[:]*,\1.o $@:,' < $@.$$$$ > $@; \
